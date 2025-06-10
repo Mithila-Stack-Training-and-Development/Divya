@@ -158,7 +158,7 @@ function App() {
     <>
       <Nav />
       <div className="mx-3 md:container md:mx-auto my-5 rounded-xl p-5 bg-gradient-to-br from-violet-100 via-purple-200 to-pink-100 min-h-[80vh] md:w-[35%] transition-all duration-500">
-        <h1 className='font-bold text-center text-3xl animate-pulse'>दिनचर्या - The Daily Flow</h1>
+        <h1 className='font-bold text-center text-3xl animate-pulse'>दिनचर्या - Your Daily Flow</h1>
 
         <div className='my-5'>
           <input value={todo} onChange={handleChange} type="text" placeholder='Add a task...' className='w-full px-3 py-2 rounded-lg border border-gray-300 focus:outline-none' />
