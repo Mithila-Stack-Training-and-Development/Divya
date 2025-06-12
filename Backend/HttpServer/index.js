@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const myServer = http.createServer((req, res) => {
     if(req.url === "/favicon.ico") return res.end();
-    const log = `${Date.now()} : ${req.url} New req recieved\n`;
+    const log = `${Date.now()} : ${req.method} ${req.url} New req recieved\n`;
     const myUrl = url.parse(req.url, true);
     console.log(myUrl);
     fs.appendFile("log.txt", log, (err, data) => {
@@ -18,7 +18,17 @@ const myServer = http.createServer((req, res) => {
         res.end(`hii, ${username}`);
         // res.end("I am Divya");
         break;
+case '/search':
+    const search = myUrl.query.search_query;
+    res.end("here are your results for" + search);
 
+    case '/signup':
+        if(req.method === "GET") res.send("This is signup Form");
+        else if(req.method === "POST"){
+            //DB query
+
+            res.end("Success");
+        }
         default:
             res.end("404 not found");
        }
