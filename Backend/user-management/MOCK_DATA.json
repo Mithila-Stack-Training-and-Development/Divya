@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "first_name": "Swen",
+    "last_name": "Finnick",
+    "email": "sfinnick0@forbes.com",
+    "gender": "Genderfluid",
+    "job_title": "Professor"
+  },
+  {
+    "id": 2,
+    "first_name": "Rubia",
+    "last_name": "Chastaing",
+    "email": "rchastaing1@xrea.com",
+    "gender": "Female",
+    "job_title": "Human Resources Manager"
+  },
+  {
+    "id": 3,
+    "first_name": "Janel",
+    "last_name": "Gresly",
+    "email": "jgresly2@squarespace.com",
+    "gender": "Female",
+    "job_title": "Paralegal"
+  },
+  {
+    "id": 4,
+    "first_name": "Shanan",
+    "last_name": "Brookshaw",
+    "email": "sbrookshaw3@mtv.com",
+    "gender": "Male",
+    "job_title": "Internal Auditor"
+  },
+  {
+    "id": 5,
+    "first_name": "Jerrie",
+    "last_name": "Treadgall",
+    "email": "jtreadgall4@booking.com",
+    "gender": "Male",
+    "job_title": "Help Desk Technician"
+  },
+  {
+    "id": 6,
+    "first_name": "Carri",
+    "last_name": "Manby",
+    "email": "cmanby5@nih.gov",
+    "gender": "Female",
+    "job_title": "Civil Engineer"
+  },
+  {
+    "id": 7,
+    "first_name": "Baron",
+    "last_name": "Giacobo",
+    "email": "bgiacobo6@hibu.com",
+    "gender": "Male",
+    "job_title": "Desktop Support Technician"
+  },
+  {
+    "id": 8,
+    "first_name": "Riva",
+    "last_name": "Shew",
+    "email": "rshew7@wix.com",
+    "gender": "Female",
+    "job_title": "Account Coordinator"
+  },
+  {
+    "id": 9,
+    "first_name": "Danyelle",
+    "last_name": "Lant",
+    "email": "dlant8@diigo.com",
+    "gender": "Female",
+    "job_title": "Dental Hygienist"
+  },
+  {
+    "id": 10,
+    "first_name": "Ignatius",
+    "last_name": "Willbourne",
+    "email": "iwillbourne9@creativecommons.org",
+    "gender": "Male",
+    "job_title": "Structural Analysis Engineer"
+  },
+  {
+    "first_name": "Divya",
+    "last_name": "Kumari",
+    "email": "example@gmail.com",
+    "gender": "female",
+    "job_title": "SDE",
+    "id": 11
+  }
+]
