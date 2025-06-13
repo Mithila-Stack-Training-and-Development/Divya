@@ -1,0 +1,11 @@
+Mongoose have a Schema in which you define the structure.
+     ------> By using this Schema you create a model.
+           -------> Using this Model we do CRUD operation.
+
+
+*************** MVC**********
+M-> Model 
+V-> View 
+C-> Controller
+
+controller -> manipulate MODEL and model updates VIEW
