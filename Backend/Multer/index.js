@@ -37,7 +37,7 @@ app.get("/", (req,res) => {
 app.post('/upload', upload.fields([{ name: "profileImg" }, { name: "coverImg" }]), (req, res) => {
 
     console.log(req.body);
-    console.log(req.file);
+    console.log(req.files);
 
     return res.redirect("/");
 
