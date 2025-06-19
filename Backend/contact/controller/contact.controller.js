@@ -58,7 +58,10 @@ export const contactController = {
 
   createContact: async (req, res) => {
     try {
-      // ✅ Validate request body using Zod
+
+      console.log("Frontend connected and data received:", req.body);
+
+      //  Validate request body using Zod
       const parsed = contactSchema.safeParse(req.body);
 
       if (!parsed.success) {

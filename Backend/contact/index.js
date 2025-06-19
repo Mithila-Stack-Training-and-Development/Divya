@@ -15,9 +15,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
-import contactRouter from "./route/contact.route.js";
+import contactRouter from "./Route/contact.route.js";
 
-// Routes
 app.use("/api", contactRouter);
 
 const port = process.env.PORT;
